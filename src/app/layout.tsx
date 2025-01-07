@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "BlogVerse By SownSheikh",
-  description: "Explore the realm of creativity and knowledge, brought to you by SownSheikh.",
+  description:
+    "Explore the realm of creativity and knowledge, brought to you by SownSheikh.",
 };
 
 export default function RootLayout({
@@ -31,25 +32,19 @@ export default function RootLayout({
       >
         {/* Navbar */}
         <NavBar />
-        
-        {/* Main Content and Video Background */}
-        <div className="w-full h-full relative">
-          <video
-            className="video-background"
-            autoPlay
-            loop
-            muted
-            playsInline
-          >
-            <source src="/background_video.mp4" type="video/mp4" />
-            {/* Browser does not support the video tag. */}
-          </video>
 
-          <div className="relative z-10 min-h-screen">
-            {children}
-          </div>
+        {/* Main Content and GIF Background */}
+        <div className="w-full h-full relative">
+          <img
+            className="image-background"
+            src="/star-image.jpg"
+            alt="Background Image"
+          />
+
+          <div className="relative z-10 min-h-screen">{children}</div>
         </div>
-          <Footer />
+
+        <Footer />
       </body>
     </html>
   );
