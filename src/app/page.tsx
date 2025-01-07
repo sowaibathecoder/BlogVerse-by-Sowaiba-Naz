@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center pt-5">
+      <div className="flex flex-col items-center pt-5 pb-32">
         {/* Adjusted margin or padding */}
         <Image
           src="/blog_verse_logo.png"
