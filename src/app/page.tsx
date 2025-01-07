@@ -15,7 +15,7 @@ export default function Home() {
         />
         <h2 className="text-[24px] sm:text-2xl md:text-[40px] px-[24px] md:px-[70px] lg:px-[100px] font-mono md:leading-normal tracking-tighter text-center font-semibold">
           Elevate Your Curiosity, Embrace Knowledge and Ignite New Possibilities
-          with "BlogVerse"
+          with &quot;BlogVerse&quot;
         </h2>
         <p className="text-center text-[14px] sm:text-[16px] md:text-[18px] mt-5 px-[40px] md:px-[90px] lg:px-[110px] xl:px-[160px]">
           At BlogVerse, we focus on providing practical solutions, useful tips,
