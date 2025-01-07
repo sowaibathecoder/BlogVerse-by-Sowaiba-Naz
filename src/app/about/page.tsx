@@ -10,8 +10,8 @@ const About = () => {
           👋🏻 Hello everyone! Welcome to{" "}
           <span className="font-bold text-[#55e4fd]">BlogVerse</span>, an
           amazing blog website where we bring interesting and engaging content
-          just for you. Whether you're into tech, daily routines, or anything
-          else fascinating, you're in the right place! If you love exploring new
+          just for you. Whether you&apos;re into tech, daily routines, or anything
+          else fascinating, you&apos;re in the right place! If you love exploring new
           and exciting topics, our blogs will definitely keep you hooked. ✨
         </p>
       </section>
@@ -47,7 +47,7 @@ const About = () => {
           <a href="/contact" className="text-[#55e4fd] underline">
             contact us
           </a>
-          . We'd love to hear from you!
+          . We&apos;d love to hear from you!
         </p>
       </section>
     </div>
